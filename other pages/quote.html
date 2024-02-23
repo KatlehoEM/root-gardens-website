@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Root Gardens | Quote</title>
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+<body>
+    <header>
+        <h1>ROOT GARDENS</h1>
+    </header>
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a class="current">Quote</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+    <main class="background">
+        <h1 class="services">GET A QUOTE</h1>
+        <div class="table">
+            <table>
+                <tr>
+                    <th>Service</th>
+                    <th>Equipment cost ($)</th>
+                    <th>Labour cost ($)</th>
+                    <th>Pick service</th>
+                </tr>
+                <tr>
+                    <td>Planting a flower</td>
+                    <td>50</td>
+                    <td>100</td>
+                    <td>
+                        <input type="checkbox" id="checkbox1" value="150">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Planting a Tree</td>
+                    <td>120</td>
+                    <td>60</td>
+                    <td>
+                        <input type="checkbox" id="checkbox2" value="180">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Garden cleaning</td>
+                    <td>100</td>
+                    <td>60</td>
+                    <td>
+                        <input type="checkbox" id="checkbox3" value="160">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Watering</td>
+                    <td>75</td>
+                    <td>60</td>
+                    <td>
+                        <input type="checkbox" id="checkbox4" value="135">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Trimming</td>
+                    <td>250</td>
+                    <td>100</td>
+                    <td>
+                        <input type="checkbox" id="checkbox5" value="350">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">Discount</td>
+                    <td colspan="2"><span id="discount">0</span></td>
+                    
+                </tr>
+                <tr>
+                    <td colspan="2">Total Cost</td>
+                    <td colspan="2"><span id="totalCost">0</span></td>
+                    
+                </tr>
+            </table>
+            <p class="center">
+                <input class="color-change" type="submit" onclick="applyDiscount()" value="Apply Discount">
+            </p>
+        </div>
+        
+
+    </main>
+    <footer>
+        <p>&copy; 2024 Root Gardens. All rights reserved.</p>
+    </footer>
+    <script src="../scripts/script.js"></script>
+
+
+</body>
+</html>
