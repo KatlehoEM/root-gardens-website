@@ -1,6 +1,6 @@
 # Root Gardens Website
 
-Welcome to the Root Gardens website repository! This repository hosts the codebase for the Root Gardens business website. Root Gardens is a project that showcases various services offered by the business, provides quotations for these services, and offers contact information for potential clients.
+Welcome to the Root Gardens website repository! This repository hosts the codebase for the Root Gardens business website. Root Gardens is a project that showcases various services offered by the business, provides quotations for these services, and offers contact information for potential clients. This project also calculates your quote.
 
 ## Features
 
